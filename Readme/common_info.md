@@ -175,7 +175,7 @@ And it worked! Important note, that I had to use
 `@_implementationOnly import Dependency2` and `@_implementationOnly import Dependency3`
 in `Dependency1` codebase to satisfy compiler.
 
-Same trick works with combining swift_library and apple_framework with **mixed codebase** of Swift and Objc.
+Same trick works with combining `swift_library` and `apple_framework` with **mixed codebase** of Swift and Objc.
 ```
 # BUILD file
 swift_library(
