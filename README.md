@@ -9,7 +9,22 @@ In this sample, I was trying to build static xcframework for distribution, by us
 
 By making this setup, I could generate static xcframework and use it in sample app
 
-**Important notes**:
+**Usage:**
+
+````
+import PerformerSDK
+
+ ...
+func callPerformerFuncs() {
+    let performer = Performer()
+    performer.read()
+    ...
+    performer.write(text: "Hello")
+}
+
+````
+
+**Important notes:**
 
 `private_deps` in `swift_library` should be marked as `@_implementationOnly import` in your code,
 otherwise you'll have an error in 
