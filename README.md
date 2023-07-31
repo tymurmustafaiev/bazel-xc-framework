@@ -1,6 +1,10 @@
 # bazel-xc-framework
 **Building static xcframework with bazel**
 
+[Interesting notes](Readme%2Fcommon_info.md) about how I was trying different setups.
+
+I think `apple_static_xcframework` usage description needs to be updated with proper samples.
+
 In this sample, I was trying to build static xcframework for distribution, by using rules_apple's [apple_static_xcframework](https://github.com/tymurmustafaiev/bazel-xc-framework.git)
 
 **Project structure:**
