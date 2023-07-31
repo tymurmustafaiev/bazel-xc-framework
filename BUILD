@@ -1,7 +1,7 @@
 load("@build_bazel_rules_apple//apple/internal:xcframework_rules.bzl", "apple_static_xcframework")
 
 apple_static_xcframework(
-    name = "InteractorFramework",
+    name = "PerformerFramework",
     bundle_name = "PerformerSDK",
     ios = {
         "simulator": [
