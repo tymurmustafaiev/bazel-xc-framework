@@ -16,8 +16,10 @@ otherwise you'll have an error in
 your sample app, that one of the dependencies are not found
 
 **Other notes:**
+
 No need to mark imports of your transitive deps as `@_implementationOnly import` as you can see on image
 from Interactor block.
 
 To build xcframework, run this command from project root folder:
+
 `bazelisk build PerformerFramework`
